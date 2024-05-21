@@ -1,0 +1,92 @@
+h1 {
+    color: white !important;
+    font-size: 5.625rem;
+    margin-left: 200px;
+    font-family: "Sacramento", cursive;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 3rem;
+    font-family: "Sacramento", cursive;
+    font-weight: 500;
+
+}
+
+.lead{
+    margin-left: 200px;
+}
+
+
+  .profile-img{
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  
+  .gradient-background {
+    background-image: linear-gradient(
+      to right,
+      #A87676,
+      #FFE6E6,
+      #D2649A
+      
+    );
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.card-cover{
+    background-position: center 30%;
+}
+
+.pb-2{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.mb-5{
+    background-color:#FFE6E6;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.fs-2{
+    background-color: #A87676;
+    padding: 10px;
+    border-radius: 10px;
+    color: white !important;
+}
+
+.feature-icon {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE6E6 !important;
+    border-radius: 5px;
+}
+
+.lead{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+      }
+      
+  
